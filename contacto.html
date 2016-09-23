@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdi Martinez | Web Developer</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<header>
+		<a href="index.html" id="logo">
+		<h1>Abdi Martinez</h1>
+		<h2>Web Developer</h2>
+		</a>
+
+		<nav>
+			<ul>
+				<li><a href="index.html" class="">Portafolio</a></li>
+				<li><a href="acerca.html" class="">Acerca de </a></li>
+				<li><a href="contacto.html" class="selected">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3>Información general</h3>
+        <p>Actualmente estoy buscando un trabajo como desarrollador, ya sea freelance o con alguna empresa. Si tienes alguna pregunta no dudes en contactarme</p>
+      </section>
+      <section id="secondary">
+        <h3>Detalles de contacto</h3>
+        <ul class="contact-info">
+          <li class="phone"><a href="tel:9982048384">9982048384</a></li>
+          <li class="mail"><a href="mailto:abdymtz@gmail.com">abdymtz@gmail.com</a></li>
+          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=abdymtz21">@abdymtz21</a></li>
+        </ul>
+      </section>
+      <section>
+        <form id="contactForm" method="post" action="php/contact-form.php">
+          <div>
+            <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+          </div>          
+          <div>
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          </div>        
+          <div>
+            <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+          </div>
+          <div>
+            <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <div>
+            <input type="submit" class="form-send" value="Enviar">
+          </div>
+        </form>
+      </section>
+      <footer>
+		<a href="https://twitter.com"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+		<a href="https://www.facebook.com/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+		<p>&copy; 2016 Abdi Martinez</p>
+	</footer>
+</body>
+</html>
